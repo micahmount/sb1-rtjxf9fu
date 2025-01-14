@@ -1,0 +1,8 @@
+{
+  "name": "style-guide-generator",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && cp manifest.json content-script.js index.html style.css main.js dist/"
+  }
+}
